@@ -66,7 +66,7 @@ int main() {
 			sum += values[i];
 		}
 
-		delete values;
+		delete[] values;
 	}
 
 	cout << "The sum of the numbers contained in the file is " << sum << '.' << endl;
